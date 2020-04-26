@@ -4,25 +4,49 @@
 <head>
     <meta charset="utf-8" />
     <title>First Do First</title>
-
+    <meta name="author"            content="Tom Gregory - A3"/>
+    <meta name="generator"         content="VisualStudio" />
+    <meta name="Keywords"          content="HTML5" />
+    <meta name="description"       content="Pagina do Estudos de HTML5,CSS,JavaScript" />
+    <meta name="application-name"  content="Estudos Front-End" />
+    <meta http-equiv="refresh"     content="" />
     <style>
+        body {
+            background: gray;
+            font-family: Arial,sans-serif;
+            color: aquamarine;
+        }
+    </style>
 
-        body{
+    <script>
+        
 
-            background :green;
 
+        function sorteioNumero() {
+
+            resultado.innerHTML = Math.random() * 50;
         }
 
+        window.onload = sorteioNumero;
 
 
-    </style>
+
+        function escreverNome() {
+            nome.innerHTML = "Tom Gregory - A2";
+        }
+        window.onload = escreverNome;
+
+
+
+    </script>
+
+   
 
 
 
 </head>
-    <body>
-
-    <!--    o   <P> - Paragrafo   pula linha  -->
+<body>
+    <!--    o   <P> - Paragrafo  ele não mantem um ao lado do outro,pula linha  -->
     <p> Primeiro teste</p>              <p> Primeiro eeeeeee</p>
 
     <br />
@@ -31,7 +55,15 @@
     <!--   (&nbsp;)   da um espaçamento entre as letras na frase -->
 
     <p> Primeiro &AElig; este</p>
+    <!--   ----------------------------------  Aula 2  ----------------------------------->
+    <p> Testando a segunda aula </p>
 
 
-    </body>
+    <!--Criacao de ID--------------------------------------------------------------------->
+
+    <p id="nome"></p>
+
+    <p id="resultado"></p>
+
+</body>
 </html>
