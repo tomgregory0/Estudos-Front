@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial,sans-serif;
+    color: aquamarine;
+}
+
+
+#separador {
+    background: black;
+}
+
+#div1 {
+    background-color: chartreuse;
+    color: black;
+    width: auto;
+}
